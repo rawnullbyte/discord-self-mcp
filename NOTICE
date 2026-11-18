@@ -1,0 +1,9 @@
+# Notice
+
+This project is MIT licensed (see LICENSE).
+
+It depends on `@discord-selfbot/core` (https://github.com/xirothedev/discord.js-selfbot), which is licensed under GNU GPL-3.0. That library is installed as a dependency and is not vendored into this repository. Distributing a built artifact that bundles it would make the combined work subject to GPL-3.0.
+
+`@discord-selfbot/core` is itself a fork of `discord.js-selfbot-v13`, which is based on `discord.js`.
+
+This project is unaffiliated with Discord Inc. Using it is against Discord's Terms of Service.

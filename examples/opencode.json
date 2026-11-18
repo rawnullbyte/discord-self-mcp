@@ -1,0 +1,14 @@
+{
+  "mcp": {
+    "discord": {
+      "type": "local",
+      "command": ["node", "/absolute/path/to/discord-self-mcp/dist/index.js"],
+      "enabled": true,
+      "environment": {
+        "DISCORD_TOKEN": "your-user-token",
+        "DISCORD_MCP_ALLOW_WRITE": "1",
+        "DISCORD_MCP_ALLOW_ADMIN": "0"
+      }
+    }
+  }
+}
